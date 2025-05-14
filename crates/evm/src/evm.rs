@@ -166,7 +166,7 @@ pub trait EvmFactory {
     /// Halt reason. See [`Evm::HaltReason`].
     type HaltReason: HaltReasonTr + Send + Sync + 'static;
     /// The EVM specification identifier, see [`Evm::Spec`].
-    type Spec: Debug + Copy + Send + Sync + 'static;
+    type Spec: Debug + Copy + Hash + PartialEq + Send + Sync + 'static;
     /// Precompiles used by the EVM.
     type Precompiles;
 
