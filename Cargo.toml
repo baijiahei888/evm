@@ -45,7 +45,7 @@ alloy-eips = { version = "1.0", default-features = false }
 alloy-consensus = { version = "1.0.0", default-features = false }
 alloy-primitives = { version = "1.0.0", default-features = false }
 alloy-sol-types = { version = "1.0.0", default-features = false }
-alloy-hardforks = { version = "0.2" }
+alloy-hardforks = {git="https://github.com/baijiahei888/hardforks.git",version = "0.2.0"}
 
 # op-alloy
 alloy-op-hardforks = { version = "0.2" }
